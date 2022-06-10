@@ -1,0 +1,507 @@
+/* style clean */
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	/* border: 1px solid black; */
+}
+
+html{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
+ul,ol{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color:#333;
+}
+a:hover, a:visited, a:link, a:active {
+    color:#333;   
+}
+
+input,textarea {
+    outline: none;
+    border: none;
+}
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+img {
+    border: none;
+}
+
+
+/* Simple layout format */
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+.flex-grow {
+	flex-grow: 1;
+}
+.wrap{
+	flex-wrap: wrap;
+}
+.nowrap{
+	flex-wrap: nowrap;
+}
+
+.hidden{
+	display:none;
+}
+
+
+/* layout */
+
+body {
+	background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+    margin-top: 8em;
+	width: 100%;
+	height: auto;
+	padding-left: 2em;
+	padding-right:2em;
+}
+.main {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 13.5em;
+    padding-right: 13.5em;
+    /* color: #fff; */
+    margin-bottom: 3em;
+}
+
+.main .back {
+    margin-top: 1em;
+    align-items: center;
+    font-size: 2em;
+    color:white;
+}
+
+.main .back:hover {
+    color: black;
+}
+
+.back img {
+    height: 5vh;
+}
+
+
+
+
+/* header */
+.fixed-header {
+	position:fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	padding-left: 2em;
+	padding-right:2em;
+	background-image: linear-gradient(180deg, #005AC0 0%,#66ACFB 100%);
+	box-shadow: 0 3px 5px rgb(1, 71, 176);
+}
+
+.header{
+	height: 8em;
+	justify-content: center;
+	align-items:center;
+	color:#fff;
+}
+
+.header .logo {
+	height: 6em;
+}
+
+.logo img {
+	height: 6em;
+	object-fit: contain;
+}
+
+.header .user-logo {
+	height:5em;
+}
+
+.user-icon img {
+	height:5em;
+	object-fit: contain;
+}
+
+.header .sub-nav{
+	flex-grow: 1;
+	font-size:1.2em;
+	margin: 0 1.5em;
+}
+
+.sub-nav li{
+	margin-left: 1.5em;
+    font-size: 1.1em;
+    font-family: Arial Rounded MT;
+}
+
+.sub-nav li:first-child{
+	margin-left: 0;
+}
+
+.sub-nav li:hover{
+	color: black;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+    height: 500px;
+    flex-direction: column;
+}
+
+.advertising {
+    width: 100%;
+    height: 80%;
+    background: #b0b0b0;
+}
+
+.advertising-left {
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.brand {
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    padding-left: 0px;
+    flex-direction: column;
+}
+
+.brand h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+	font-size: 3em;
+}
+
+.brand-img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.brand img {
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.advertising-list {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+
+.advertising-list ul li {
+    margin-left: 20px;
+	font-size: 2em;
+}
+
+.advertising-right {
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advertising-right-words {
+    display: block;
+}
+
+.advertising-right-words h2 {
+    font-size: 2.5em;
+}
+
+.advertising-right-words h3 {
+    font-size: 1.5em;
+	margin: 10px 0;
+}
+
+.advertising-right-connection-icon {
+    display: flex;
+}
+
+.advertising-right-connection-icon  img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.bottom-list-box {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+.bottom-list-box ul {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-list-box ul li {
+    color: white;
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+
+
+/* float */
+/* menu */
+.right-menu-box{
+	position:fixed;
+	right: 0px;
+	top:0px;
+	width: 30em;
+	height: 100%;
+	z-index: 1000;
+	background-image: linear-gradient(
+        to bottom, #0077FF 100%, #3895FF 54%
+    );
+    border-radius: 2em 0 0 2em;
+    opacity: 0.9;
+}
+
+.right-menu-box .close-icon {
+    margin: 20px;
+}
+
+.right-menu-box .user-box {
+    justify-content: flex-end;
+    margin: 0 20px;
+    align-items: center;
+}
+
+.user-box .user-name {
+	justify-content: flex-end;
+    color: white;
+    margin-right: 20px;
+}
+
+.user-box .user-name p:first-child{
+	width: fit-content;
+    font-size: 2em;
+}
+
+.user-box .user-name p:last-child{
+    width: fit-content;
+}
+
+.user-box .user-avatar {
+	justify-content: center;
+	align-items: center;
+    background: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.user-avatar img {
+	height: 100px;
+	object-fit: contain;
+}
+
+.right-menu-box .menu-select-box {
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    font-family: Arial;
+}
+
+.menu-select-box .menu-icon {
+    width: 13%;
+}
+
+.menu-select-box p {
+    font-size: 1.5em;
+    font-family: Arial;
+    margin-right: 20px;
+}
+
+.menu-select-box:hover {
+    color: #000000;
+}
+
+.right-menu-box .sign-out-buttom {
+    justify-content: flex-end;
+    align-items: center;
+    margin: 40px 20px;
+}
+
+.sign-out-buttom p {
+    color: #449BFF;
+    font-size: 1.5em;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 2em;
+    background-image: linear-gradient(
+        to bottom, #DCDCDC 100%, #FFFFFF 100%
+    );
+    box-shadow:inset 0px 0px 10px 2px rgb(156, 156, 156);
+}
+
+.sign-out-buttom p:hover{
+    color: white;
+    background: #449BFF;
+    box-shadow: inset 0px 0px 10px 5px rgb(0, 102, 255);
+}
+
+/* contact bar */
+
+.contact-menu-box{
+    position:fixed;
+	left: calc(100%/2 - 30em);
+	top:9em;
+    margin: 0 auto;
+	width: 60em;
+	height: 60em;
+	z-index: 1000;
+	background-color:#CCCCCC;
+    border-radius: 2em;
+    
+    z-index: 1000;
+    animation-name: contact-menu-model-box;
+    animation-duration:1s;
+   }
+   
+   
+
+
+.contact-menu-box .contact-menu-top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.contact-menu-top-box h1 {
+    color: white;
+    font-size: 4em;
+}
+
+.contact-menu-box .contact-words {
+    color: white;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+.contact-menu-box .contact-input-content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    margin: 20px;
+}
+
+.contact-input-content-box .contact-input-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: 25%;
+    background: white;
+    box-shadow:inset 0px 0px 5px 1px rgb(108, 108, 108), 0 0 10px rgb(79, 79, 79);
+    border-radius: 2em;;
+}
+
+.contact-input-box p {
+    margin-left: 20px;
+    color: #9D9D9D;
+}
+
+.contact-input-box .drop-down-menu-icon {
+    width: 10%;
+    height: fit-content;
+    margin-right: 20px;
+}
+
+.contact-menu-box .contact-menu-bottom-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-menu-bottom-box .contact-bottom-words-box {
+    display: flex;
+    margin: 0 20px;
+    width: 60%;
+}
+
+.contact-menu-bottom-box .contact-bottom-words-box p {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.contact-menu-bottom-box .contact-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.contact-button button {
+    font-size: 2.5em;
+    padding: 20px 70px;
+    border-radius: 1em;
+    color: white;
+    background-image: linear-gradient(
+        to bottom, #0078FF 0%, #c6e1ff 100%
+        );
+        box-shadow:inset 0px 0px 5px 1px rgb(0, 102, 255), 0 0 10px rgb(0, 106, 255);
+}
+
+.contact-button button:hover{
+    color: #0077FF;
+    background: white;
+    box-shadow:inset 0px 0px 5px 1px rgb(108, 108, 108), 0 0 10px rgb(161, 161, 161);
+}
+
+
+
+
+
+
+/* Some modifications when checking*/
+.right-menu-box a {
+    color:white !important;
+}
+
+.right-menu-box a p:hover {
+    color:black !important;
+}
+
+
+

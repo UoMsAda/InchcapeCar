@@ -1,0 +1,199 @@
+/* main */
+.main .sub-title{
+	font-size:5rem;
+	margin: 0.3em 0;
+	color: white;
+	font-family: Arial Rounded MT;
+}
+
+/* .main .small-nav{
+	font-size:1.5em;
+	margin-top: 1em;
+} */
+
+/* .main .small-nav::before{
+	content: " ";
+	display: inline-block;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	height: .8rem;
+	width: .8rem;
+	margin-right: .5em;
+	border-width: 0 0 2px 2px;
+	border-color: #fff;
+	border-style: solid;
+	position: relative;
+	top: 0
+} */
+
+
+/* .main-box .back {
+    display: flex;
+} */
+
+/* .back img {
+    height: 5vh;
+} */
+
+/* .back p {
+    color: white;
+    line-height: 5vh;
+} */
+
+.main-box .detail-contact {
+    margin: 10px;
+}
+
+.detail-contact .details {
+    width: 60%;
+    height: 170vh;
+    background: white;
+    border-radius: 2em;
+}
+
+
+.details .cars-img {
+    border-radius: 2em;
+}
+
+.details .cars-img-box {
+    height: 15vh;
+    margin: 10px 0 0 0;
+    background: gray;
+}
+
+.details .simple-details {
+    margin: 10px 0 10px 0;
+}
+
+.details .price-box {
+}
+
+.price-box .price {
+    width: 50%;
+    font-size: 5em;
+}
+
+.price-box .Save-Contact {
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.Save-Contact .save {
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.save img {
+    height:4vh;
+}
+
+.Save-Contact .compare {
+    justify-content: flex-end;
+}
+
+.compare img {
+    height: 4vh;
+}
+
+.details .details-table {
+    margin-top: 10px;
+}
+
+.details-table img {
+    width: 40vw;
+}
+
+
+
+.detail-contact .contact-box {
+    width: 40%;
+    height: fit-content;
+    padding: 10px;
+    background: gray;
+    border-radius: 2em;
+    margin-left: 20px;
+}
+
+.contact-box .contact-items {
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+
+.contact-box h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.contact-box p {
+    margin-top: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.contact-box ul {
+    margin-top: 10px;
+}
+
+.contact-box ul li {
+    background: white;
+    color: #9D9D9D;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-radius: 1em;
+    height: 7vh;
+    line-height: 7vh;
+    padding-left: 10px;
+}
+
+.contact-box .priacy-information {
+    display: flex;
+}
+
+.priacy-information input {
+    height: 5vh;
+}
+
+.priacy-information p {
+    margin-left: 5px;
+}
+
+.contact-box .contact {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-image: linear-gradient(
+        180deg, #ffffff 0%,#b1b1b1 100%
+        );
+    box-shadow:inset 0px 0px 10px 2px rgb(181, 181, 181);
+    border-radius: 2em;
+
+}
+.contact-box .contact:hover {
+    background: #0077FF;
+    box-shadow: none;
+}
+
+.contact p {
+    font-size: 3em;
+	border-radius: 1em;
+	color: #0062ff;
+	font-weight: bold;
+    letter-spacing: 0.2em;
+}
+.contact p:hover {
+	color: white;
+}
+
+
+.details .fixed-img {
+    width: 65.2em;
+}

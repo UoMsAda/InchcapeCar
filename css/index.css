@@ -1,0 +1,112 @@
+/* main */
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-box {
+    padding: 2em;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-box h1 {
+    color: white;
+    font-size:5em;
+    font-family: Arial Rounded MT;
+}
+
+.main-box>p {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    font-family: Calibri;
+}
+
+.main-box .make-body-box {
+    align-self: start;
+    margin-left: 1.5em;
+    margin-top: 2em;
+}
+
+.make-body-box .make-style {
+    background: #449BFF;
+    color: white;
+    padding: 20px 40px;
+    font-size: 1.3em;
+    margin-bottom: 0px;
+}
+
+.make-style:hover {
+    background: white;
+    color: #449BFF;
+}
+
+.make-body-box .body-style {
+    color: #449BFF;
+    padding: 20px 40px;
+    background: white;
+    font-size: 1.3em;
+    margin-bottom: 0px;
+}
+
+.body-style:hover {
+    background: #449BFF;
+    color: white;
+}
+
+.main-box .search-bar {
+    justify-content: center;
+    background: #9EC2FF;
+    opacity: 88%;
+    border-radius: 2em;
+}
+
+.search-bar input {
+    margin: 20px;
+    height: 6em;
+    width: 25em;
+    border-radius: 2em;
+}
+
+.main-box .search-bottom {
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    background-image: linear-gradient(
+        180deg, #0078FF 0%,#69AEFA 100%
+        );
+    box-shadow:inset 0px 0px 10px 2px rgb(0, 123, 255);
+    width: 35%;
+    border-radius: 2em;
+    color: white;
+}
+
+.search-bottom p {
+    padding: 10px;
+    width: fit-content;
+    font-size: 2.5em;
+    letter-spacing: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+
+.search-bottom:hover {
+    color: #0077FF;
+    background: white;
+    box-shadow: none;
+}
+
+.search-bottom p:hover {
+    color: #0077FF;
+}
+
+.main-box .everything-you-know p {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 2em;
+    font-family: Arial;
+}
+
