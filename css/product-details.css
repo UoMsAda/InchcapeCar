@@ -1,4 +1,3 @@
-/* main */
 .main .sub-title{
 	font-size:5rem;
 	margin: 0.3em 0;
@@ -6,40 +5,6 @@
 	font-family: Arial Rounded MT;
 }
 
-/* .main .small-nav{
-	font-size:1.5em;
-	margin-top: 1em;
-} */
-
-/* .main .small-nav::before{
-	content: " ";
-	display: inline-block;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-	height: .8rem;
-	width: .8rem;
-	margin-right: .5em;
-	border-width: 0 0 2px 2px;
-	border-color: #fff;
-	border-style: solid;
-	position: relative;
-	top: 0
-} */
-
-
-/* .main-box .back {
-    display: flex;
-} */
-
-/* .back img {
-    height: 5vh;
-} */
-
-/* .back p {
-    color: white;
-    line-height: 5vh;
-} */
 
 .main-box .detail-contact {
     margin: 10px;

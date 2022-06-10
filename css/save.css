@@ -5,132 +5,6 @@
 	font-family: Arial Rounded MT;
 }
 
-/* .main .small-nav{
-	font-size:1.5em;
-	margin-top: 1em;
-} */
-
-/* .main .small-nav::before{
-	content: " ";
-	display: inline-block;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-	height: .8rem;
-	width: .8rem;
-	margin-right: .5em;
-	border-width: 0 0 2px 2px;
-	border-color: #fff;
-	border-style: solid;
-	position: relative;
-	top: 0
-} */
-
-/* .main .left {
-	width:30em;
-	height:auto;
-} */
-
-/* .left .accordion-container{	
-	border: 1px solid #e3e3e3;
-} */
-
-/* .left .accordion-container:first-child{
-	border-radius: 1.2em 1.2em 0 0;
-} */
-
-/* .left .accordion-container:last-child {
-	border-radius: 0 0 1.2em 1.2em;
-} */
-
-
-/* 打开和关闭手风琴面板的样式 */
-/* .left .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 1em;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  font-size:1.2em;
-} */
- 
- 
-/* 设置点击和鼠标移到选项上面时（悬停）的样式 */
-/* .accordion:hover {
-  background-color: #ccc;
-} */
- 
-/* 为手风琴面板设计样式。 默认隐藏 */
-/* .accordion .panel {
-  padding: 0 18px;
-  background-color: #0000;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-} */
-
-/* 设置 +、- 标志 */
-/* .accordion:after {
-  content: '\002B';  
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-} */
-
-
-/* .left .active{
- 	background-color: #ccc !important ;
-} */
-
-/* .left .active:after { 
-  content: "\2212";  
-} */
-
-/* .left .panel p {
-	padding-left: 2em;
-	font-size:1.2em;
-	line-height: 1.2em;
-	margin-top: 0.6em;
-	margin-bottom: 0.6em;
-} */
-
-/* .left .left-header {	
-	padding: 1em;
-	width: 100%;
-	font-size:1.2em;
-	background-color: #eee;
-	color:#000;
-} */
-
-/* .left .left-footer {	
-	padding: 1em;
-	transition: 0.4s;
-	font-size:1.2em;
-	background-color: #eee;
-	color:#000;
-} */
-
-/* .left .clear {
-	
-} */
-
-/* .left .refine-search{
-	
-} */
-
-/* .left span:hover {
-	color: #ff0000;
-	cursor: pointer;
-	
-} */
-
-/*end left*/
-
 
 .main .right {
 	height:auto;
@@ -195,7 +69,7 @@
 	background-size:contain;
 }
 
-/* list single content */
+
 
 .right .pager-container {	
 	display:flex;

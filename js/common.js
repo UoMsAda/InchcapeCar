@@ -79,21 +79,21 @@ function toggleFilter() {
         listTypes.removeClass("type-selector-active");
         current.addClass("type-selector-active");
         
-        //
+        
         var currentTargetData = current.attr("target-data");
         $(".list-content").hide();
         $("."+currentTargetData).show();
     });
 }
 
-//禁止滚动条滚动
+//do not scrolling
 function unScroll() {
     var top = $(document).scrollTop();
     $(document).on('scroll.unable',function (e) {
         $(document).scrollTop(top);
     })
 }
-//移除禁止滚动条滚动
+//remove do not scrolling
 function removeUnScroll() {
     $(document).unbind("scroll.unable");
 }
